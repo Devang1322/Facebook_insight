@@ -1,0 +1,45 @@
+{
+    "info": {
+        "name": "Facebook Insights API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Get Page Details",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://127.0.0.1:8000/pages/boat.lifestyle",
+                    "host": ["127.0.0.1"],
+                    "port": "8000",
+                    "path": ["pages", "boat.lifestyle"]
+                }
+            }
+        },
+        {
+            "name": "Get Posts",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://127.0.0.1:8000/pages/boat.lifestyle/posts",
+                    "host": ["127.0.0.1"],
+                    "port": "8000",
+                    "path": ["pages", "boat.lifestyle", "posts"]
+                }
+            }
+        },
+        {
+            "name": "Get Followers",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://127.0.0.1:8000/pages/boat.lifestyle/followers",
+                    "host": ["127.0.0.1"],
+                    "port": "8000",
+                    "path": ["pages", "boat.lifestyle", "followers"]
+                }
+            }
+        }
+    ]
+}
+
